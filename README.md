@@ -243,18 +243,18 @@ export default function Comment(comment) {
 
 ### Code Style:
 
-    - Use 2 spaces for indentation.
+  - Use 2 spaces for indentation.
 
-    - Write clear commit messages that explain the changes you’ve made.
+  - Write clear commit messages that explain the changes you’ve made.
 
-    - Test your code: Make sure everything works correctly before submitting a pull request.
+  - Test your code: Make sure everything works correctly before submitting a pull request.
 
 ## Acknowledgments 🙏
 
-    - Thanks to the Hacker News API for providing the data that powers this app. 🙌
+  - Thanks to the Hacker News API for providing the data that powers this app. 🙌
 
-    - Shoutout to Navigo for making hash-based routing super simple! 💡
+  - Shoutout to Navigo for making hash-based routing super simple! 💡
 
-    - StackOverflow and the open-source community for helpful discussions and resources. 💬
+  - StackOverflow and the open-source community for helpful discussions and resources. 💬
 
 Thank you for exploring the Hacker News Clone! 🎉 We hope you find it useful and fun to work with. Feel free to fork the repo, contribute, and enhance the project. Happy coding and stay curious! 💻✨
