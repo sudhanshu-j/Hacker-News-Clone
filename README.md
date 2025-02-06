@@ -36,7 +36,7 @@ This project is perfect for anyone looking to learn more about **routing**, **st
 
 Check out the live version of this project and explore all its features in real-time:
 
-[**Live Demo - Hacker News Clone**](https://your-live-demo-link.com) 🌐
+[**Live Demo - Hacker News Clone**](https://newshackerclone.netlify.app/) 🌐
 
 ---
 
