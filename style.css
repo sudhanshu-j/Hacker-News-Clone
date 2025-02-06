@@ -1,0 +1,333 @@
+/* General styling for the html and body tags */
+html,
+body {
+  padding: 0; /* Removes any default padding */
+  margin: 8px; /* Adds margin of 8px around the body */
+  font-family: Verdana, Geneva, sans-serif; /* Sets the font family for the page */
+}
+
+/* Styling for unvisited anchor tags */
+a:link {
+  color: #000000; /* Sets the color to black for unvisited links */
+  text-decoration: none; /* Removes underline from the links */
+}
+
+/* Styling for visited anchor tags */
+a:visited {
+  color: #828282; /* Sets the color to grey for visited links */
+  text-decoration: none; /* Removes underline from visited links */
+}
+
+/* Active state for links, adding an underline */
+.active {
+  border-bottom: 1px solid white; /* Adds a white bottom border to active links */
+}
+
+/* Styling for elements with the 'favorite' class */
+.favorite {
+  cursor: pointer; /* Changes the cursor to pointer to indicate it's clickable */
+}
+
+/* Styling for the heart image, typically used as an icon */
+.heart {
+  height: 15px; /* Sets the height of the heart image */
+  width: 15px; /* Sets the width of the heart image */
+}
+
+/* Styling for the header links */
+header .flex a {
+  color: black; /* Ensures that header links have black color */
+}
+
+/* Styling for elements with the 'gray' class */
+.gray {
+  margin-top: 0.25em; /* Adds a small margin on top */
+  color: #828282; /* Sets the text color to grey */
+}
+
+/* Orange background color */
+.orange {
+  background-color: #ff6600; /* Sets a vibrant orange background */
+}
+
+/* Light gray background color */
+.background-gray {
+  background-color: rgb(246, 246, 239); /* Sets a light gray background */
+}
+
+/* Styling for individual story items */
+.story {
+  padding-top: 0.25em; /* Adds padding on top */
+  padding-bottom: 0.5em; /* Adds padding on bottom */
+}
+
+/* Styling for horizontal rules (dividers) */
+hr {
+  display: block; /* Ensures it takes up the full width */
+  height: 1px; /* Sets the height to 1px for a thin line */
+  border: 0; /* Removes any default border */
+  border-top: 1px solid rgb(229, 229, 229); /* Sets a light gray border */
+  margin: 1em 0; /* Adds margin to top and bottom */
+  padding: 0; /* Removes any padding */
+}
+
+/* Styling for forms when creating links */
+.create-link-form {
+  margin-top: 1em; /* Adds a margin at the top */
+  margin-bottom: 0.5em; /* Adds a margin at the bottom */
+  display: flex; /* Flexbox layout */
+  align-items: start; /* Aligns children items at the start */
+  flex-direction: column; /* Stacks form elements vertically */
+  justify-content: center; /* Centers content vertically */
+}
+
+/* Button styling */
+button {
+  font-family: monospace; /* Uses a monospace font */
+  font-size: 10pt; /* Sets font size to 10pt */
+  color: black; /* Sets text color to black */
+  background-color: buttonface; /* Uses system default button color */
+  text-align: center; /* Centers text in the button */
+  padding: 2px 6px 3px; /* Adds padding to the button */
+  border-width: 2px; /* Sets a 2px border */
+  border-style: outset; /* Applies an outset border style */
+  border-color: buttonface; /* Matches border color to button color */
+  cursor: pointer; /* Changes cursor to pointer */
+  max-width: 250px; /* Sets a maximum width for the button */
+  margin-top: 1em; /* Adds a margin on top */
+}
+
+/* Input field styling */
+input {
+  width: 100%; /* Makes input field take up the full width */
+  max-width: 500px; /* Sets a maximum width of 500px */
+  font-family: monospace; /* Uses a monospace font */
+  font-size: 1.2rem; /* Sets font size to 1.2rem */
+  display: inline-block; /* Makes the input behave as an inline-block */
+  text-rendering: auto; /* Uses system settings for text rendering */
+  color: initial; /* Sets color to default */
+  letter-spacing: normal; /* Uses normal letter spacing */
+  word-spacing: normal; /* Uses normal word spacing */
+  text-transform: none; /* Disables any text transformation */
+  text-indent: 0; /* No text indent */
+  text-shadow: none; /* No text shadow */
+  display: inline-block; /* Ensures it behaves as an inline block */
+  text-align: start; /* Aligns text to the start */
+  background-color: white; /* Sets background color to white */
+  cursor: text; /* Sets cursor to text for input */
+  margin: 0; /* Removes any margin */
+  padding: 1px; /* Adds minimal padding */
+  border-width: 2px; /* Sets border width */
+  border-style: inset; /* Applies an inset border */
+  border-color: initial; /* Uses default border color */
+  border-image: initial; /* Uses default border image */
+}
+
+/* Styling for login and register forms */
+.login-form,
+.register-form {
+  margin-top: 1em; /* Adds margin to the top */
+  margin-bottom: 0.5em; /* Adds margin to the bottom */
+  display: flex; /* Flexbox layout */
+  align-items: start; /* Aligns children at the start */
+  flex-direction: column; /* Stacks form elements vertically */
+  justify-content: center; /* Centers the content vertically */
+}
+
+/* Error styling for inputs */
+.error-input {
+  border: 2px solid red; /* Adds a red border for error */
+  border-radius: 4px; /* Rounds the corners of the border */
+}
+
+/* Styling for error messages */
+.error-text {
+  margin: 0.25em 0 0.5em; /* Adds margin around the error text */
+  padding: 0; /* No padding */
+  color: red; /* Sets text color to red */
+  font-style: bold; /* Makes text bold */
+}
+
+/* Header styling */
+.header {
+  background-color: #ff6600; /* Sets orange background */
+  white-space: nowrap; /* Prevents text from wrapping */
+  padding: 0.5rem; /* Adds padding */
+  color: black; /* Sets text color to black */
+  justify-content: space-between; /* Distributes space evenly */
+  align-items: center; /* Vertically centers items */
+  display: flex; /* Uses flexbox for layout */
+}
+
+/* Header title styling */
+.header-title {
+  font-weight: 700; /* Makes text bold */
+  margin-left: 0.25rem; /* Adds margin to the left */
+  margin-right: 5px; /* Adds margin to the right */
+  color: black; /* Sets color to black */
+  text-decoration: none; /* Removes underline */
+  font-size: 1.1rem; /* Sets font size to 1.1rem */
+}
+
+/* Header logo image styling */
+.header-logo {
+  height: 18px; /* Sets logo height */
+  margin-bottom: -1.5px; /* Adjusts the logo's bottom margin */
+  border: 1px solid #fff; /* Adds a white border around the logo */
+}
+
+/* Header link styling */
+.header-link {
+  margin-left: 0.2rem; /* Adds margin to the left */
+  color: white !important; /* Ensures text is white */
+  text-decoration: none; /* Removes underline */
+}
+
+/* Header button styling */
+.header-button {
+  margin-left: 0.25rem; /* Adds margin to the left */
+  color: black; /* Sets text color to black */
+  text-decoration: none; /* Removes underline */
+  cursor: pointer; /* Sets cursor to pointer */
+}
+
+/* Divider styling */
+.divider {
+  margin-left: 0.25rem; /* Adds left margin */
+  color: black; /* Sets color to black */
+}
+
+/* Textarea styling */
+textarea {
+  margin-top: 0.5em; /* Adds margin to the top */
+  width: 90%; /* Sets width to 90% */
+}
+
+/* Delete button styling */
+.delete-button {
+  color: red; /* Sets color to red */
+  cursor: pointer; /* Sets cursor to pointer */
+  font-weight: bold; /* Makes the text bold */
+}
+
+/* Container for the app */
+.app-container {
+  width: 85%; /* Sets width to 85% */
+  margin-right: auto; /* Centers the container horizontally */
+  margin-left: auto; /* Centers the container horizontally */
+}
+
+/* Route container styling */
+#route-container {
+  background-color: rgb(246, 246, 239); /* Sets a light background */
+  padding: 0.5rem 1.2rem; /* Adds padding to the route container */
+}
+
+/* Comment header styling */
+.comment-header {
+  color: #828282; /* Sets comment header color to grey */
+  margin: 0; /* Removes margin */
+  font-size: 0.75rem; /* Sets font size to 0.75rem */
+}
+
+/* Comment text styling */
+.comment-text {
+  margin: 0.4em 0; /* Adds margin above and below text */
+  font-size: 0.9rem; /* Sets font size to 0.9rem */
+}
+
+/* Comment reply styling */
+.comment-reply {
+  text-decoration: underline !important; /* Underlines reply text */
+  font-size: 0.75rem; /* Sets font size to 0.75rem */
+}
+
+/* Nested comments styling with varying indentations */
+.nested-comments-0 {
+  margin-left: 1em; /* Indents by 1em */
+  margin-bottom: 1em; /* Adds bottom margin */
+}
+
+.nested-comments-1 {
+  margin-left: 2em; /* Indents by 2em */
+  margin-bottom: 0.5em; /* Adds bottom margin */
+  padding-top: 0.3em; /* Adds padding on top */
+  padding-left: 0.75em; /* Adds left padding */
+}
+
+/* Further nested comments with greater indentation */
+.nested-comments-2 {
+  margin-left: 3em; /* Indents by 3em */
+  margin-bottom: 0.5em; /* Adds bottom margin */
+  padding-top: 0.3em; /* Adds padding on top */
+  padding-left: 0.75em; /* Adds left padding */
+}
+
+.nested-comments-3 {
+  margin-left: 4em; /* Indents by 4em */
+  margin-bottom: 0.5em; /* Adds bottom margin */
+  padding-top: 0.3em; /* Adds padding on top */
+  padding-left: 0.75em; /* Adds left padding */
+}
+
+.nested-comments-4 {
+  margin-left: 5em; /* Indents by 5em */
+  margin-bottom: 0.5em; /* Adds bottom margin */
+  padding-top: 0.3em; /* Adds padding on top */
+  padding-left: 0.75em; /* Adds left padding */
+}
+
+/* Pagination styling */
+.pagination {
+  margin-top: 1rem; /* Adds margin to the top */
+  margin-bottom: 1rem; /* Adds margin to the bottom */
+  margin-left: 2rem; /* Adds margin to the left */
+  color: #000; /* Sets color to black */
+  display: -webkit-box; /* Uses flexbox layout */
+  display: -ms-flexbox; /* Uses flexbox layout for older browsers */
+  display: flex; /* Flexbox layout */
+}
+
+/* Upvote button styling */
+.upvote {
+  font-size: 14px; /* Sets font size */
+  vertical-align: top; /* Aligns it to the top */
+  color: #828282; /* Sets color to grey */
+  margin-left: 0.25rem; /* Adds margin to the left */
+}
+
+/* Forgot password section styling */
+.forgot-password {
+  padding: 1em 0; /* Adds padding to top and bottom */
+}
+
+/* Logo styling */
+.logo {
+  width: 20px; /* Sets logo width */
+  height: 18px; /* Sets logo height */
+  border: 1px solid white; /* Adds a white border */
+  margin: 0; /* Removes margin */
+}
+
+/* Input for creating links */
+.create-link-input {
+  border-color: rgba(0, 0, 0, 0.2); /* Sets a light border color */
+  border-style: solid; /* Solid border */
+  border-width: 1px; /* Border width of 1px */
+  padding: 0.2em 0.4em; /* Adds padding inside the input */
+  width: 100%; /* Sets width to 100% */
+  margin-bottom: 0.6em; /* Adds bottom margin */
+  max-width: 500px; /* Sets maximum width to 500px */
+}
+
+/* Styling for login and register inputs */
+.login-input,
+.register-input {
+  margin-bottom: 0.6em; /* Adds margin to the bottom */
+  padding: 0.2em 0.4em; /* Adds padding */
+}
+
+/* General error styling */
+.error {
+  color: red; /* Sets error text color to red */
+}

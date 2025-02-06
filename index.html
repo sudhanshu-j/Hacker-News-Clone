@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <!-- The HTML document starts here -->
+  <head>
+    <!-- The head section, where metadata and links to external resources are placed -->
+
+    <!-- This link tag includes a CSS file from a CDN (Content Delivery Network) to normalize styles across different browsers -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+
+    <!-- This link includes a custom CSS file called 'style.css' for custom styling -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- This link defines the favicon (icon) for the site, showing an image called hacker-news-icon.png -->
+    <link rel="icon" type="image/x-icon" href="Icons/hacker-news-icon.png" />
+
+    <!-- This is the title of the webpage, which appears in the browser tab -->
+    <title>Hacker-News-Clone</title>
+  </head>
+
+  <body>
+    <!-- The body of the webpage begins here -->
+
+    <!-- A container for the entire app content -->
+    <div id="app-container">
+      <!-- The header section, containing navigation links and the logo -->
+      <div id="app-header">
+        <header class="header">
+          <!-- A flex container for the title and navigation links -->
+          <div class="flex">
+            <!-- A span displaying the logo and the main title of the website -->
+            <span class="header-title">
+              <!-- The logo image of Hacker News -->
+              <img class="header-logo" src="/Icons/hacker-news-icon.png" />
+              HackerNews
+            </span>
+
+            <!-- Navigation links for different sections of the site -->
+            <a href="#/" class="header-link">Top</a>
+            <a href="#/new" class="header-link">New</a>
+            <a href="#/ask" class="header-link">Ask</a>
+            <a href="#/show" class="header-link">Show</a>
+            <a href="#/favorites" class="header-link">Favorites</a>
+          </div>
+        </header>
+      </div>
+
+      <!-- This is the container where different views or pages will be loaded depending on routing -->
+      <div id="route-container">
+        <!-- The router outlet where the content of different routes will be displayed -->
+        <div id="router-outlet"></div>
+      </div>
+    </div>
+
+    <!-- The script for the main JavaScript file of the app -->
+    <script type="module" src="app.js"></script>
+
+    <!-- The script includes the Navigo JavaScript router from an external CDN -->
+    <script src="//unpkg.com/navigo@6"></script>
+  </body>
+</html>
+
+<!-- news.ycombinator.com -->
+
+<!-- https://npmjs.com/package/navigo -->
